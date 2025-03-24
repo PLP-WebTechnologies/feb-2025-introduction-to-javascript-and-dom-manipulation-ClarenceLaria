@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script src="script.js"></script>
+<body>
+
+    <header>
+        <h1>Responsive Website</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="content">
+            <h2>Welcome to our site</h2>
+            <p>This is a responsive page using Flexbox and CSS Grid.</p>
+        </section>
+        <aside class="sidebar">
+            <h2>Sidebar</h2>
+            <p>Additional information or links.</p>
+        </aside>
+    </main>
+    <!-- Javascript Section -->
+    <div>
+        <div class="javascript-section">
+            <p id="description">Click the button to change this text.</p>
+            <button onclick="changeText()">Change Text</button>
+            
+            <button onclick="toggleBox()">Toggle Box</button>
+        </div>
+        <div id="box" class="hidden">This is a dynamically added box!</div>
+    </div>
+
+    <footer>
+        <p>&hearts; Thank you PLP &hearts;</p>
+        <p>&copy; 2025 Responsive Design</p>
+    </footer>
+
+</body>
+</html>
